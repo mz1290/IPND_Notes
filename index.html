@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Intro To Programming Notes</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+</head>
+<body>
+
+    <div class="header">
+        <h1>Intro to programming</h1>
+    </div>
+
+    <div class="lesson">
+        <h2>00 - Thinking Like a Programmer</h2>
+        <div class="lesson-content">
+            <div>
+                <p class="topic">
+                    <strong>Procedural Thinking</strong>
+                </p>
+                <p>
+                    Procedural thinking involves creating perfectly clear and unambiguous instructions for a computer to follow.
+                    <br><br>
+                    It may be easy to tell a person how to sort a deck of cards, but getting a computer to do that requires more thought. But once you've learned to think this way you'll find that computers can do it much faster.
+                </p>
+            </div>
+
+            <div>
+                <p class="topic">
+                    <strong>Abstract Thinking</strong>
+                </p>
+                <p>
+                    Abstract thinking means finding similarity, or as programmers would say, generality amongst seemingly different things.
+                    <br><br>
+                    In this Nanodegree program you will visit hundreds of Udacity web pages. It would be impractical for a programmer to specifically program each of these pages individually. The Udacity programmers used the power of what's called abstraction to avoid unnecessary repetition of work.
+                </p>
+            </div>
+            <div>
+                <p class="topic">
+                    <strong>Systems Thinking</strong>
+                </p>
+                <p>
+                    Systems thinking happens when you break a big problem down into smaller pieces. Programmers do this when they create a plan (often on paper) for how a program will work. It involves big-picture thinking and decision-making about a problem and how different pieces of a program can work together to solve it. If this is unclear now, don't worry! You'll understand what this means much more clearly by the end of the Nanodegree program.
+                </p>
+            </div>
+            <div>
+                <p class="topic">
+                    <strong>Technological Thinking</strong>
+                </p>
+                <p>
+                    "Technological empathy" comes in many forms. For example, computer empathy is the ability to understand what a computer is, how it works, and what it's good and bad at doing.
+                    <br><br>
+                    A computer is a tool, as are the programs we use and the programming languages used to write them. It's almost impossible to program anything substantial without a basic understanding of how these tools work.
+                </p>
+            </div>
+            <div>
+                <p class="topic">
+                    <strong>Debugging</strong>
+                </p>
+                <p>
+                    Debugging is a systematic process of relentlessly identifying the cause of a computer program that doesn't work.
+                    <br><br>
+                    When a program doesn't work, it's because there is a mistake (also known as a "bug") somewhere in the computer code. Since these mistakes are an unavoidable part of programming, every good programmer has a system for fixing them and that system usually looks something like this:
+                    <ol>
+                        <li>Collect evidence (what makes this program fail?)</li>
+                        <li>Generate theories (what may have caused this problem?)</li>
+                        <li>Test those theories (if my theory is correct, how could I find out?)</li>
+                        <li>Fix the problem</li>
+                    </ol>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="lesson">
+        <h2>01 - Learn to Code: Basics of Web and HTML</h2>
+        <div class="lesson-content">
+            <div>
+                <p class="topic">
+                    <strong>Basics of the web</strong>
+                </p>
+                <p>
+                    The web consists of plain text, HTML (Hypertext Markup Language), images, music, videos, and much more! Hyperlinks connect pages together and are what make the world wide web, "web like." 
+                </p>
+            </div>
+
+            <div>
+                <p class="topic">
+                    <strong>Components of the web</strong>
+                </p>
+                <ul>
+                    <li><em>HTML</em> - The language browsers of the internet use to interpret web pages.</li>
+                    <li><em>User</em> - This is the person sending the request over the internet. Also called "client."</li>
+                    <li><em>Internet</em> - The web!</li>
+                    <li><em>HTTP</em> - Hypertext Transfer Protocol - this is the foundation of communciation for the internet. How requets are made and received.</li>
+                    <li><em>Servers</em> - Provides / sends information back to the user via a second HTTP request.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="lesson">
+        <h2>02 - HTML + CSS: Creating a Structured Document</h2>
+        <div class="lesson-content">
+            <div>
+                <p class="topic">
+                    <strong>HTML Document Basics</strong>
+                </p>
+                <p>
+                    HTML and CSS are both "languages," although some will debate this. HTML dictates the structure of a web page using tags. CSS controls the styling of a web page. A popular term used by programmers is "DOM" or Document Object Model. The DOM refers to the tree structure of a page that can be viewied on any page using your browser's developer tools. This 
+                    <a target="_blank" href="https://en.wikipedia.org/wiki/Tree_structure">wikipedia page</a> 
+                    also provides additional information around tree structure.
+                </p>
+                <p class="topic">
+                    <strong>Boxes Everywhere!</strong>
+                </p>
+                <p>
+                    It is crucial to remember that every page consists of boxes that are formatted using CSS. Think of any web page as box inception!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="lesson">
+        <h2>02 - HTML + CSS: Adding CSS for Style</h2>
+        <div class="lesson-content">
+            <div>
+                <p class="topic">
+                    <strong>CSS - Cascading Style Sheets</strong>
+                </p>
+                <p>
+                    "Cascading" is the key word because the rules that you create with CSS code will always cascade down to the most granular level and apply the coded formatting.
+                </p>
+                <p class="topic">
+                <strong>Order Matters</strong>
+                </p>
+                <ul>
+                    <li>Default style of a browser.</li>
+                    <li>Stylesheet in in separate file.</li>
+                    <li>Stylesheet inside HTML. Not recommended.</li>
+                    <li>Inline style in an element within HTML file.</li>
+                </ul>
+                <p class="topic">
+                    <strong>CSS Selectors</strong>
+                </p>
+                <p>
+                    This website provides a great guide on how CSS selectors opperate: <a target="_blank" href="https://css-tricks.com/how-css-selectors-work/">CSS-Tricks</a>
+                </p>
+                <p class="topic">
+                    <strong>CSS Reference / Documentation</strong>
+                </p>
+                <p>
+                    Something I struggled with after Colt's course was not knowing where to begin with CSS. I knew how it operated but not all the attributes and nuances. This <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">MDN CSS documentation</a> is the best place to start AND end. Everything I need will be included somewhere within.
+                </p>
+                <p class="topic">
+                    <strong>The Box Model</strong>
+                </p>
+                <p>
+                    Here is a <a target="_blank" href="http://assignments.udacity-extras.appspot.com/courses/html-css/samples/box-model.html">link</a> to a good reference describing the box model. 
+                </p>
+                <ul>
+                    <li>Content - image or text appearing on the page</li>
+                    <li>Padding - clears an area around the content, affected by background color of box.</li>
+                    <li>Border - surrounds content and padding</li>
+                    <li>Margin - clears area around the margin, no background color, space between boxes.</li>
+                </ul>
+                <p>
+                    <span class="note">Note:</span> the size of element equals sum of border, padding, and content widths. 
+                </p>
+                <p class="topic">
+                    <strong>Box Sizing and Positioning</strong>
+                </p>
+                <p>
+                    Positinoing can be handled many different ways. It is considered one of the most complicated aspects of CSS. One technique we covered is "flexbox." This <a target="_blank" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">link</a> provides a great summary of flexbox.
+                </p>
+                <p>
+                    Additionally, getting the size of a box right can be difficult. Here are two techniques I can use:
+                </p>
+                <ul>
+                    <li>Set sizes in terms of percentages rather than pixels.</li>
+                    <li>Set the box-sizing attribute to border-box for every element.</li>
+                </ul>
+                <p>
+                    <span class="note">Note:</span> Remember that divs are block elements and that block elements take up the width of a page by default. By adding display: flex code to your css div elements will override this feature and divs will appear next to each other.
+                </p>
+                <p class="topic">
+                    <strong>Code, Test, Refine</strong>
+                </p>
+                <ol>
+                    <li>Get the structure of page right. Boxify!</li>
+                    <li>Look for repeated styles and semantic elements. DRY!</li>
+                    <li>Write your HTML for boxes and tags.</li>
+                    <li>Work on box sizing.</li>
+                    <li>Work on box positioning.</li>
+                    <li>Apply styling from BIGGEST to smallest.</li>
+                    <li>Fix.</li>
+                    <li>REPEAT 5 and 6 until complete.</li>
+                </ol>
+                <p class="topic">
+                    <strong>Verifying HTML and CSS</strong>
+                </p>
+                <ul>
+                    <li>To verify HTML: <a target="_blank" href="https://validator.w3.org/#validate_by_input">HTML Check</a></li>
+                    <li>To verify CSS: <a target="_blank" href="http://jigsaw.w3.org/css-validator/#validate_by_input">CSS Check</a></li>
+                </ul>
+                <p class="topic">
+                    <strong>Some References!</strong>
+                    <ul>
+                        <li><a target="_blank" href="https://www.webmechanix.com/advantages-of-html5-and-semantic-markup">The Benefits of HTML5 and Semantic Markup</a>!</li>
+                        <li><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Content_sectioning">HTML Elements reference</a></li>
+                        <li><a href="http://udacity.github.io/frontend-nanodegree-styleguide/css.html">Udacity Style Guide</a></li>
+                    </ul>
+                </p>
+                <p class ="topic">
+                    <strong>HTML5 Semantic Tags</strong>
+                </p>
+                <img class="image" src="images/htmlsemantic.png" alt="Screenshot">
+            </div>
+        </div>
+    </div>
+    
+    <hr>
+
+    <div class="lesson">
+        <h2>03 - Python: Command Line</h2>
+
+        <div class="lesson-content">
+            <div>
+                <p class="topic">
+                    <strong>Summary of commands</strong>
+                </p>
+                    <img class="image" src="images/commandline.png" alt="Screenshot">
+                    <p>
+                        Source: <a target="_blank" href="https://classroom.udacity.com/nanodegrees/nd000/parts/e1297038-20fa-4fa8-91c8-97b147b2c3d2/modules/89a40b5c-9a8d-41f2-8c1f-be62bbcac423/lessons/e98be087-2f47-4c74-a70c-d88e7de187da/concepts/f52d4e8d-ea43-4918-8465-0347c68ca3da">Udacity - Summary — Running Code from the Command Line</a>
+                    </p>
+            </div>
+            <div>
+                <p class="topic">
+                    <strong>Other Command Line Notes</strong>
+                </p>
+                    <p>
+                        When you're working outside of a specific directory and want to create/add multiple files you can do so by writing the path then separating the names with spaces and file types.
+                    </p>
+                    <p>
+                        For example:
+                        <br>
+                        ~/Desktop $ touch animals/marsupials/kangaroo.txt animals/cloven_hoofed_animals/giraffe.txt
+                    </p>
+            </div>
+            <div>
+                <p class="topic">
+                    <strong>Python and Command Line</strong>
+                </p>
+                    <ul>
+                        <li>Remember to save files with .py</li>
+                        <li>Execute python files by starting the command line with "python" or "python3."</li>
+                        <li>Any changes to file must be saved before the command line can represent.</li>
+                    </ul>
+                <p class="topic">
+                    <strong>Workspace, Workspace, Workspace!</strong>
+                </p>
+                    <img class="image" src="images/workspace.png" alt="Screenshot">
+                    <p>
+                        Source: <a target="_blank" href="https://classroom.udacity.com/nanodegrees/nd000/parts/e1297038-20fa-4fa8-91c8-97b147b2c3d2/modules/89a40b5c-9a8d-41f2-8c1f-be62bbcac423/lessons/e98be087-2f47-4c74-a70c-d88e7de187da/concepts/671b0d92-bfba-4646-b5c1-829d09005d6d">Udacity - Setting up Your Workspace</a>
+                    </p>
+            </div>
+            <div>
+                <p class="topic">
+                    <strong>Python Final Note</strong>
+                </p>
+                <p>
+                    Python, like many languages, is an "interpreter" for the computer. We write a program in Python. Python then interprets it and relays the equivalent machine code to the computer so it can perform the action.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <hr>
+
+    <div class="lesson">
+        <h2>03 - Python: Variables + Strings</h2>
+
+        <div class="lesson-content">
+            <div>
+                <p class="topic">
+                    <strong>Intro to Variables</strong>
+                </p>
+                <p>
+                    Keep the following three items in mind when learning about variables...
+                </p>
+                <img class="image" src="images/variables.png" alt="Screenshot">
+                <p>
+                    Source: <a target="_blank" href="https://classroom.udacity.com/nanodegrees/nd000/parts/e1297038-20fa-4fa8-91c8-97b147b2c3d2/modules/89a40b5c-9a8d-41f2-8c1f-be62bbcac423/lessons/b3e7d531-35c5-473e-a3a6-30e76c8b2edc/concepts/f67fbe50-66da-4f01-bff7-e9fe0fd9fc9c">Udacity - Variables Where to Focus Your Attention</a>
+                </p>
+            </div>
+        </div>
+        <div class="lesson-content">
+            <div>
+                <p class="topic">
+                    <strong>Variables can vary / Assignment</strong>
+                </p>
+                <p>
+                    Variable assignment is pretty straightforward in Python - you can reassign at will. Keep in mind that any variables that may have included the reassigned variable will also need to be "refreshed" in the program, otherwise the old value will still exist.
+                </p>
+            </div>
+            <div>
+                <p class="topic">
+                    <strong>Strings</strong>
+                </p>
+                <p>
+                    Not much to really make note of.. Just remember that if you're having a issue to google.
+                    You will most likely find your solution + documentation fairly quickly. Probably a good idea to start a "Frequently" used functions and method list for each language!
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <hr>
+
+    <div class="lesson">
+        <h2>03 - Python: Input > Function > Output</h2>
+
+        <div class="lesson-content">
+            <div>
+                <p class="topic">
+                    <strong>Overview of Functions</strong>
+                </p>
+                <p>
+                    Variables are considered one of the <strong>most</strong> 
+                    important ideas in programming.
+                </p>
+                <p>
+                    <strong>Functions</strong> are one of the most important <em>ideas</em>.
+                </p>
+                <p>
+                    Functions, also known as "procedures", look like this:
+                </p>
+                <img class="smaller-image" src="images/basicfunction.png" alt="Screenshot">
+                <img class="smaller-image" src="images/basicfunction2.png" alt="Screenshot">
+
+            </div>
+            <div>
+                <p class="topic">
+                    <strong>Functions / Procedures</strong>
+                </p>
+                <p>
+                    We must understand the following aboud functions:
+                    <ul>
+                        <li><strong>What</strong> a function is.</li>
+                        <li><strong>How</strong> to <em>make</em> a function.</li> 
+                        <li><strong>How</strong> to <em>use</em> a function.</li>
+                        <li><strong>When</strong> you should write a function.</li>
+                        <li><strong>Why</strong> functions are so valuable.</li>
+                    </ul>
+                </p>
+                <p>
+                    <strong>Important video:</strong> <a target="_blank" href="https://classroom.udacity.com/nanodegrees/nd000/parts/e1297038-20fa-4fa8-91c8-97b147b2c3d2/modules/89a40b5c-9a8d-41f2-8c1f-be62bbcac423/lessons/e39875c3-61ae-4ddc-aa60-9e14fd9cac52/concepts/486678600923">Udacity - Using Procedures </a>.
+                    Keep this specific question in minde: How do functions take 
+                    input and produce output and what role do the keywords def 
+                    and return have to do with this process?
+                </p>
+                <p>
+                    Using a function: &lt; function &gt; ( &lt; input1 &gt;, &lt; input2 &gt;, ... )
+                    <br>
+                    Inputs are also referred to as operands, arguments, and parameters.
+                </p>
+                <p>
+                    Basic order of operations for a defined function:
+                    <ol>
+                        <li>Assign paramter to variable.</li>
+                        <li>Run the defined body code.</li>
+                        <li>Execute and produce output.</li>
+                    </ol>
+                    Good Example Video: <a target="_blank" href="https://www.youtube.com/watch?time_continue=319&v=YZxj5ZJ3BHE">Sum Function Exercise Solution</a>
+                </p>
+                <p>
+                    <strong>Mentor Question:</strong> Hey david, do you happen to know a general rule that clearly defines the differences between a method and a function?
+                </p>
+                <p>
+                    <strong>Mentor Answer:</strong> A method is just how a function that belongs to a class is called usually. Some languages like Pascal or Basic differentiate between "functions" and "procedures", where a procedure or subprocedure (or subroutine) is a function that returns nothing: it just changes some values, or prints something, and the like. But it is not common in modern languages. Anyway, people tend to mix up the nomenclature and call a function a method and viceversa. It is not a big thing in my opinion.
+                </p>
+            </div>
+            <div>
+                <p class="topic">
+                    <strong>Calling A Function</strong>
+                </p>
+                <p>
+                    "Calling" a function just means using it. You do this by writing:
+                    <ol>
+                        <li>The function name, followed by...</li>
+                        <li>... an open parenthesis, followed by...</li>
+                        <li>... the values for the required parameters, followed by...</li>
+                        <li>... a closed parenthesis</li>
+                    </ol>
+                </p>
+            </div>
+            <div>
+                <p class="topic">
+                    <strong>Debugging</strong>
+                </p>
+                <img class="image" src="images/debug.png" alt="Screenshot">
+            </div>
+             <div>
+                <p class="topic">
+                    <strong>Adding Comments</strong>
+                </p>
+                <p>
+                    <ol>
+                        <li>Don't comment "obvious code."</li>
+                            <p>
+                                Printing "Hello" does not require comments.
+                            </p>
+                        <li>Start functions with a comment.</li>
+                            <p>
+                                Explain expected inputs, outputs, and what function does.
+                            </p>
+                        <li>Keep comments up-to-date.</li>
+                            <p>
+                                Code can become confusing if changes are made and corresponding updates are not made to comments.
+                            </p>
+                        <li>Be concise.</li>
+                            <p>
+                                Short and explain most important details of your code. If you find yourself wriring long comments to clarify confusing parts of your code you may want to rethink approach. Generally, well written code will have sparse, concise, comments. Poorly written code will have to depend on comments!
+                            </p>
+                    </ol>
+                    <p>
+                        Source: <a target="_blank" href="https://classroom.udacity.com/nanodegrees/nd000/parts/e1297038-20fa-4fa8-91c8-97b147b2c3d2/modules/89a40b5c-9a8d-41f2-8c1f-be62bbcac423/lessons/7ac2e3c7-82a5-45ca-b28f-c7bfd5dd6389/concepts/54828786330923">Udacity - Writing Comments</a>
+                    </p>
+                </p>
+            </div>
+        </div>
+    </div>    
+
+</body>
+</html>
+
+<!-- **************************************************** -->
+<!--                       TEMPLATES                      -->
+<!-- **************************************************** -->
+
+    <!-- Section Title + overall container-->
+<!--     <div class="lesson">
+        <h2>Large Header</h2>
+    </div> -->
+
+    <!-- Sub-container -->
+<!--     <div class="lesson-content">
+    </div> -->
+
+    <!-- Sub-header for specific topic - paragraph -->
+<!--             <div>
+                <p class="topic">
+                    <strong>TOPIC TITLE</strong>
+                </p>
+                <p>
+                    CONTENT
+                </p>
+            </div> -->

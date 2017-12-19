@@ -1,1 +1,3 @@
-# IPND_Notes
+# Notes
+
+Intro to programming nanodegree
